@@ -1,0 +1,30 @@
+# Reading C:/intelFPGA_pro/19.4/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile C:/work/Projetos/Arquitetura_de_computadores/ACSE_ARM-Single-Cycle-Project/arm_single.mpf
+# Loading project arm_single
+# Compile of arm_single.sv was successful.
+vsim -gui workarm.testbench
+# vsim -gui workarm.testbench 
+# Start time: 14:29:38 on Jun 21,2025
+# Loading sv_std.std
+# Loading workarm.testbench
+# Loading workarm.top
+# Loading workarm.arm
+# Loading workarm.controller
+# Loading workarm.decoder
+# Loading workarm.condlogic
+# Loading workarm.flopenr
+# Loading workarm.condcheck
+# Loading workarm.datapath
+# Loading workarm.mux2
+# Loading workarm.flopr
+# Loading workarm.adder
+# Loading workarm.regfile
+# Loading workarm.extend
+# Loading workarm.alu
+# Loading workarm.imem
+# Loading workarm.dmem
+add wave -position end  sim:/testbench/dut/imem/RAM
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/work/Projetos/Arquitetura_de_computadores/ACSE_ARM-Single-Cycle-Project/wave.do
+# End time: 14:34:48 on Jun 21,2025, Elapsed time: 0:05:10
+# Errors: 1, Warnings: 0
