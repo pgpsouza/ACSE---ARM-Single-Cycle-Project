@@ -4,7 +4,7 @@
 # Compile of arm_single.sv was successful.
 vsim -gui workarm.testbench
 # vsim -gui workarm.testbench 
-# Start time: 15:14:39 on Jun 21,2025
+# Start time: 16:09:16 on Jun 28,2025
 # Loading sv_std.std
 # Loading workarm.testbench
 # Loading workarm.top
@@ -23,102 +23,12 @@ vsim -gui workarm.testbench
 # Loading workarm.alu
 # Loading workarm.imem
 # Loading workarm.dmem
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dec'.  Expected 14, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/c/dec File: C:/Users/55279/Desktop/armprocessors/arm_single.sv Line: 189
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (2) for port 'NoWrite'. The port definition is at: C:/Users/55279/Desktop/armprocessors/arm_single.sv(202).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/c/dec File: C:/Users/55279/Desktop/armprocessors/arm_single.sv Line: 189
+# ** Warning: (vsim-3722) C:/Users/55279/Desktop/armprocessors/arm_single.sv(189): [TFMPC] - Missing connection for port 'ALUControl'.
 add wave -position end  sim:/testbench/dut/imem/RAM
 run
-# Compile of arm_single.sv was successful.
-run
-vsim -gui workarm.testbench
-# End time: 15:43:42 on Jun 21,2025, Elapsed time: 0:29:03
-# Errors: 1234, Warnings: 0
-# vsim -gui workarm.testbench 
-# Start time: 15:43:42 on Jun 21,2025
-# Loading sv_std.std
-# Loading workarm.testbench
-# Loading workarm.top
-# Loading workarm.arm
-# Loading workarm.controller
-# Loading workarm.decoder
-# Loading workarm.condlogic
-# Loading workarm.flopenr
-# Loading workarm.condcheck
-# Loading workarm.datapath
-# Loading workarm.mux2
-# Loading workarm.flopr
-# Loading workarm.adder
-# Loading workarm.regfile
-# Loading workarm.extend
-# Loading workarm.alu
-# Loading workarm.imem
-# Loading workarm.dmem
-add wave -position end  sim:/testbench/dut/arm/clk
-add wave -position end  sim:/testbench/dut/arm/reset
-add wave -position end  sim:/testbench/dut/arm/Instr
-# Compile of arm_single.sv failed with 2 errors.
-# Compile of arm_single.sv failed with 2 errors.
-# Compile of arm_single.sv failed with 1 errors.
-# Compile of arm_single.sv was successful.
-vsim -gui workarm.testbench
-# End time: 15:50:45 on Jun 21,2025, Elapsed time: 0:07:03
-# Errors: 747, Warnings: 0
-# vsim -gui workarm.testbench 
-# Start time: 15:50:45 on Jun 21,2025
-# Loading sv_std.std
-# Loading workarm.testbench
-# Loading workarm.top
-# Loading workarm.arm
-# Loading workarm.controller
-# Loading workarm.decoder
-# Loading workarm.condlogic
-# Loading workarm.flopenr
-# Loading workarm.condcheck
-# Loading workarm.datapath
-# Loading workarm.mux2
-# Loading workarm.flopr
-# Loading workarm.adder
-# Loading workarm.regfile
-# Loading workarm.extend
-# Loading workarm.alu
-# Loading workarm.imem
-# Loading workarm.dmem
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'c'.  Expected 13, found 12.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/c File: C:/Users/55279/Desktop/armprocessors/arm_single.sv Line: 162
-# ** Warning: (vsim-3722) C:/Users/55279/Desktop/armprocessors/arm_single.sv(162): [TFMPC] - Missing connection for port 'PCSrc'.
-# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dp'.  Expected 16, found 15.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/dp File: C:/Users/55279/Desktop/armprocessors/arm_single.sv Line: 166
-# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'MovFlag'. The port definition is at: C:/Users/55279/Desktop/armprocessors/arm_single.sv(343).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/dp File: C:/Users/55279/Desktop/armprocessors/arm_single.sv Line: 166
-# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (32) for port 'ALUFlags'. The port definition is at: C:/Users/55279/Desktop/armprocessors/arm_single.sv(344).
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/arm/dp File: C:/Users/55279/Desktop/armprocessors/arm_single.sv Line: 166
-# ** Warning: (vsim-3722) C:/Users/55279/Desktop/armprocessors/arm_single.sv(166): [TFMPC] - Missing connection for port 'ReadData'.
-add wave -position end  sim:/testbench/dut/arm/clk
-add wave -position end  sim:/testbench/dut/arm/reset
-add wave -position end  sim:/testbench/dut/arm/Instr
-add wave -position end  sim:/testbench/dut/arm/c/MovF
-add wave -position end  sim:/testbench/dut/arm/c/MoveFlag
-add wave -position end  sim:/testbench/dut/arm/dp/rf/rf
-run
-# Compile of arm_single.sv was successful.
-# Load canceled
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading workarm.testbench
-# Loading workarm.top
-# Loading workarm.arm
-# Loading workarm.controller
-# Loading workarm.decoder
-# Loading workarm.condlogic
-# Loading workarm.flopenr
-# Loading workarm.condcheck
-# Loading workarm.datapath
-# Loading workarm.mux2
-# Loading workarm.flopr
-# Loading workarm.adder
-# Loading workarm.regfile
-# Loading workarm.extend
-# Loading workarm.alu
-# Loading workarm.imem
-# Loading workarm.dmem
-run
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/work/Projetos/Arquitetura_de_computadores/ACSE_ARM-Single-Cycle-Project/wave.do
-# End time: 15:58:48 on Jun 21,2025, Elapsed time: 0:08:03
-# Errors: 701, Warnings: 0
+# End time: 16:09:55 on Jun 28,2025, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 3

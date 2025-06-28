@@ -1,4 +1,4 @@
-C:/Users/55279/Desktop/armprocessors/arm_single.sv {1 {vlog -work workarm -sv -stats=none C:/Users/55279/Desktop/armprocessors/arm_single.sv
+C:/Users/55279/Desktop/armprocessors/arm_single.sv {1 {vlog -work workarm -sv -stats=none {C:\Users\55279\Desktop\armprocessors\arm_single.sv}
 Model Technology ModelSim - Intel FPGA Edition vlog 2019.2 Compiler 2019.04 Apr 17 2019
 -- Compiling module testbench
 -- Compiling module top
